@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav * {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 5%;
+}
+
+main h1.main--title {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#drop-down {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#tag {
+    margin-left: 2.5%;
+    width: 5%;
+}
+
+#logo {
+    margin-left: 68%;
+    margin-right: 5%;
+}
+
+.card--list {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 40%;
+}
+
+.card {
+    width: 30%;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    margin-bottom: none;
+}
+
+.card--title {
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+}
+
+.card--left {
+    background-color: lightpink;
+}
+
+.card--middle {
+    background-color: lightblue;
+}
+
+.card--right {
+    background-color: lightyellow;
+}
+
+.card--image {
+    width: 175px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+}
+.card--image img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.card--button {
+    position: absolute;
+    
+}
